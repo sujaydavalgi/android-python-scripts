@@ -1,3 +1,5 @@
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import android_scripts_python.library.log_functions as log_functions
 import subprocess
 from typing import Optional

@@ -1,3 +1,5 @@
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import android_scripts_python.library.main_functions as main_functions
 
 def get_device_android_code_name(device_serial: str) -> str:

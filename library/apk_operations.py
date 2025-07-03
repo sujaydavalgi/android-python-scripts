@@ -1,3 +1,5 @@
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import android_scripts_python.library.main_functions as main_functions
 import android_scripts_python.library.log_functions as log_functions
 from android_scripts_python.library.text_formatting import format_message

@@ -1,5 +1,6 @@
 import os
 import platform
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from android_scripts_python.library.machine_os import check_my_os_type
 
 # Stub variables (to be set or imported from config)

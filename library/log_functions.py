@@ -1,5 +1,6 @@
-import android_scripts_python.library.main_functions as main_functions
 import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import android_scripts_python.library.main_functions as main_functions
 from datetime import datetime
 from android_scripts_python.library.device_operations import is_google_device, get_device_name, compare_device_build_version
 

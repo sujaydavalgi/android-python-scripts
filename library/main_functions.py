@@ -2,6 +2,7 @@ import os
 import subprocess
 from datetime import datetime
 from typing import List
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from android_scripts_python.library.text_formatting import pbold, format_message, TXT_RST, TXT_PUR
 import android_scripts_python.library.log_functions as log_functions
 
