@@ -15,19 +15,19 @@ Edit the PATH variables
 
 1. Open the environment variables file
 
-- For Linux/Mac (Unix based), edit the bash profile file</br>
-  - In Linux: `vi ~/.bashrc`</br>
-  - In Mac OSX: `vi ~/.bash_profile`</br>
-  
-- For Windows, edit the [environment variables](http://www.360logica.com/blog/how-to-set-path-environmental-variable-for-sdk-in-windows/) based</br>
-  - Click Start (Orb) menu button</br>
-  - Right click on Computer icon</br>
-  - Click on Properties. This will bring up System window in Control Panel</br>
-  - Click on Advanced System Settings on the left. This will bring up the System Properties window with Advanced tab selected </br>
-  - Click on Environment Variables button on the bottom of the dialog. This brings up the Environment Variables dialog</br>
-  - In the System Variables section (or User variables if system variables is uneditable), scroll down till you see Path</br>
-  - Click on Path to select it, then the Edit button. This will bring up the Edit System Variable dialog</br>
-  - While the Variable value field is selected, press the End key on your keyboard to go to the right end of the line, or use the arrow keys to move the marker to the end</br>
+  - For Linux/Mac (Unix based), edit the bash profile file</br>
+    - In Linux: `vi ~/.bashrc`</br>
+    - In Mac OSX: `vi ~/.bash_profile`</br>
+    
+  - For Windows, edit the [environment variables](http://www.360logica.com/blog/how-to-set-path-environmental-variable-for-sdk-in-windows/)</br>
+    - Click Start (Orb) menu button</br>
+    - Right click on Computer icon</br>
+    - Click on Properties. This will bring up System window in Control Panel</br>
+    - Click on Advanced System Settings on the left. This will bring up the System Properties window with Advanced tab selected </br>
+    - Click on Environment Variables button on the bottom of the dialog. This brings up the Environment Variables dialog</br>
+    - In the System Variables section (or User variables if system variables is uneditable), scroll down till you see Path</br>
+    - Click on Path to select it, then the Edit button. This will bring up the Edit System Variable dialog</br>
+    - While the Variable value field is selected, press the End key on your keyboard to go to the right end of the line, or use the arrow keys to move the marker to the end</br>
 
 2. Add/append the following adb paths ( Make sure to use your sdk path for ANDROID_HOME below )</br>
  - For Linux / Mac (Unix based)</br>
